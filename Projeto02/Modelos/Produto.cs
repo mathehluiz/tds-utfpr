@@ -15,6 +15,6 @@ public class Product
         }
 
         Product products = (Product)obj;
-        return products.ProductID.Equals(this.ProdProductIDutoID);
+        return products.ProductID.Equals(this.ProductID);
     }
 }
